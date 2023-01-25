@@ -45,11 +45,11 @@ a:hover{
     position:relative;
 }
 
-.backorange{
+.backred{
     width: 100%;
     height: 100%;
     position: absolute;
-    background-color: var(--orange);
+    background-color: var(--red);
     clip-path: polygon(100% 0, 94% 0, 72% 100%, 100% 100%);
 }
 
@@ -89,8 +89,8 @@ a:hover{
 .major{
     position: absolute;
     z-index: 10;
-    margin-top: -3.5vh;
     background-color: white;
+    margin-top: -3.5vh;
     margin-left: 27vw;
     transform: skewX(-0.04turn);
     border-radius: 10px;
@@ -125,9 +125,8 @@ a:hover{
     height: 30px;
 }
 
-
 /*middle*/
-.orange-circle{
+.red-circle{
     position:relative;
     margin-top: 20vh ;
     margin-left: -5vw;
@@ -137,11 +136,11 @@ a:hover{
     border-radius: 100%;
     border-width: 2px;
     border-style:solid;
-    border-color: var(--orange);
+    border-color: var(--red);
 }
 
-.orange-ball{
-    background-color: var(--orange);
+.red-ball{
+    background-color: var(--red);
     border-radius: 100%;
     position: absolute;
     z-index: 15;
@@ -194,8 +193,8 @@ a:hover{
     float: left;
     position:absolute;
     z-index: 7;
-    background-color: var(--orange);
-    width: 30%;
+    background-color: var(--red);
+    width: 45%;
     height: 60px;
     border-radius: 50px;
     margin-top: -2px;
@@ -205,8 +204,8 @@ a:hover{
 }
 .porcent-2{
     position: absolute;
-    background-color: var(--orange);
-    width: 15%;
+    background-color: var(--red);
+    width: 45%;
     height: 60px;
     border-radius: 50px;
     margin-top: -2px;
@@ -216,8 +215,8 @@ a:hover{
 }
 .porcent-3{
     position: absolute;
-    background-color: var(--orange);
-    width: 20%;
+    background-color: var(--red);
+    width: 59%;
     height: 60px;
     border-radius: 50px;
     margin-top: -2px;
@@ -227,8 +226,8 @@ a:hover{
 }
 .porcent-4{
     position: absolute;
-    background-color: var(--orange);
-    width: 40%;
+    background-color: var(--red);
+    width: 50%;
     height: 60px;
     border-radius: 50px;
     margin-top: -2px;
@@ -242,7 +241,7 @@ a:hover{
         width: 0;
     }
     to{
-        width: 30%;
+        width: 45%;
     }
 }
 
@@ -251,7 +250,7 @@ a:hover{
         width: 0;
     }
     to{
-        width: 15%;
+        width: 45%;
     }
 }
 
@@ -260,7 +259,7 @@ a:hover{
         width: 0;
     }
     to{
-        width: 20%;
+        width: 59%;
     }
 }
 
@@ -269,11 +268,11 @@ a:hover{
         width: 0;
     }
     to{
-        width: 40%;
+        width: 50%;
     }
 }
 /*hero*/
-.tracer{
+.ashe{
     position:absolute;
     margin-top: 6vh;
     display: flex;
@@ -283,19 +282,19 @@ a:hover{
     margin-left: 3vw;
     z-index: 10;
 }
-.tracerface{
+.asheface{
     position: absolute;
     z-index: 16;
     border-style: solid;
     border-width: 3px;
     border-color: white;
     border-radius: 10px;
-    margin-left: 23.5vw;
+    margin-left: 23vw;
     width: 60px;
     height: 60px;
 }
 
-.tracerface ::after{
+.asheface::after{
     content:" ";
     position:absolute;
     z-index: 20;
@@ -305,21 +304,21 @@ a:hover{
     border-radius: 100%;
 }
 
-.tracerface-1{
+.asheface-1{
     border-style: solid;
     border-width: 3px;
     border-color: white;
     border-radius: 10px;
     box-shadow: 1px 1px 5px #9c9c9c;
     position: absolute;
-    z-index: 5;
-    margin-top: 60vh;
+    z-index: 10;
+    margin-top: 65vh;
     margin-left: 15vw;
     width: 100px;
     height: 100px;
 }
 
-.tracerface-2{
+.asheface-2{
     border-radius: 10px;
     position: absolute;
     z-index: 5;

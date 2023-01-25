@@ -45,11 +45,11 @@ a:hover{
     position:relative;
 }
 
-.backorange{
+.backblue{
     width: 100%;
     height: 100%;
     position: absolute;
-    background-color: var(--orange);
+    background-color: var(--blue);
     clip-path: polygon(100% 0, 94% 0, 72% 100%, 100% 100%);
 }
 
@@ -125,9 +125,8 @@ a:hover{
     height: 30px;
 }
 
-
 /*middle*/
-.orange-circle{
+.blue-circle{
     position:relative;
     margin-top: 20vh ;
     margin-left: -5vw;
@@ -137,11 +136,11 @@ a:hover{
     border-radius: 100%;
     border-width: 2px;
     border-style:solid;
-    border-color: var(--orange);
+    border-color: var(--blue);
 }
 
-.orange-ball{
-    background-color: var(--orange);
+.blue-ball{
+    background-color: var(--blue);
     border-radius: 100%;
     position: absolute;
     z-index: 15;
@@ -194,8 +193,8 @@ a:hover{
     float: left;
     position:absolute;
     z-index: 7;
-    background-color: var(--orange);
-    width: 30%;
+    background-color: var(--blue);
+    width: 50%;
     height: 60px;
     border-radius: 50px;
     margin-top: -2px;
@@ -205,8 +204,8 @@ a:hover{
 }
 .porcent-2{
     position: absolute;
-    background-color: var(--orange);
-    width: 15%;
+    background-color: var(--blue);
+    width: 20%;
     height: 60px;
     border-radius: 50px;
     margin-top: -2px;
@@ -216,8 +215,8 @@ a:hover{
 }
 .porcent-3{
     position: absolute;
-    background-color: var(--orange);
-    width: 20%;
+    background-color: var(--blue);
+    width: 58%;
     height: 60px;
     border-radius: 50px;
     margin-top: -2px;
@@ -227,8 +226,8 @@ a:hover{
 }
 .porcent-4{
     position: absolute;
-    background-color: var(--orange);
-    width: 40%;
+    background-color: var(--blue);
+    width: 30%;
     height: 60px;
     border-radius: 50px;
     margin-top: -2px;
@@ -242,7 +241,7 @@ a:hover{
         width: 0;
     }
     to{
-        width: 30%;
+        width: 50%;
     }
 }
 
@@ -251,7 +250,7 @@ a:hover{
         width: 0;
     }
     to{
-        width: 15%;
+        width: 20%;
     }
 }
 
@@ -260,7 +259,7 @@ a:hover{
         width: 0;
     }
     to{
-        width: 20%;
+        width: 58%;
     }
 }
 
@@ -269,11 +268,11 @@ a:hover{
         width: 0;
     }
     to{
-        width: 40%;
+        width: 30%;
     }
 }
 /*hero*/
-.tracer{
+.ana{
     position:absolute;
     margin-top: 6vh;
     display: flex;
@@ -283,19 +282,19 @@ a:hover{
     margin-left: 3vw;
     z-index: 10;
 }
-.tracerface{
+.anaface{
     position: absolute;
     z-index: 16;
     border-style: solid;
     border-width: 3px;
     border-color: white;
     border-radius: 10px;
-    margin-left: 23.5vw;
+    margin-left: 23vw;
     width: 60px;
     height: 60px;
 }
 
-.tracerface ::after{
+.anaface::after{
     content:" ";
     position:absolute;
     z-index: 20;
@@ -305,7 +304,7 @@ a:hover{
     border-radius: 100%;
 }
 
-.tracerface-1{
+.anaface-1{
     border-style: solid;
     border-width: 3px;
     border-color: white;
@@ -319,7 +318,7 @@ a:hover{
     height: 100px;
 }
 
-.tracerface-2{
+.anaface-2{
     border-radius: 10px;
     position: absolute;
     z-index: 5;
